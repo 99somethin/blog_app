@@ -8,3 +8,5 @@ class Category(models.Model):
     def __str__(self):
         """Represent model object."""
         return self.name
+    
+

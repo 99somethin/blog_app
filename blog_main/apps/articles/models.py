@@ -11,3 +11,5 @@ class Article(models.Model):
     def __str__(self):
         """Represent model object."""
         return self.title
+    
+

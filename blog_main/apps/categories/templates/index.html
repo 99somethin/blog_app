@@ -12,5 +12,6 @@
     <!-- END -->
       <div>{{ category.description }}</div>
     {% endfor %}
+    <a href="{% url 'category_create' %}">Добавить категорию</a>
   </div>
 {% endblock content %}
